@@ -8,12 +8,18 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="#" target="_blank">
-          <img src={caraLuis} className="logo" alt="React logo" />
+        <a href="https://reactjs.org" target="_blank">
+          <img
+            src={caraLuis}
+            // height="50px"
+            // width="50px"
+            className="logo"
+            alt="React logo"
+          />
         </a>
       </div>
-
       <h1>Luis culo gordo</h1>
+      <p className="read-the-docs">Tonto el que lo lea</p>
     </div>
   );
 }

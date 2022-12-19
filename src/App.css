@@ -30,3 +30,11 @@
     animation: logo-spin infinite 3s linear;
   }
 }
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
